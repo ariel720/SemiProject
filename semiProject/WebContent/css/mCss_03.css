@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+	@font-face{
+		font-family: 'font2'; /* 폰트 패밀리 이름 주기*/
+		src: url('/semiProject/css/MERKIN__.ttf'); /*폰트 파일 주소*/
+	}
+	@font-face{
+		font-family: 'font'; /* 폰트 패밀리 이름 주기*/
+		src: url('../css/BebasNeue.otf'); /*폰트 파일 주소*/
+	}
+	#modal_01_j{
+		width: 1100px;
+		height: 200px;
+		margin: 0 auto;
+		margin-top: 40px;
+		background-color: white;
+	}
+	#line_01_j{
+		width: 1100px;
+		height: 3px;
+		background-color: black;
+	}
+	#modal_02_j{
+		width: 1050px;
+		height: 150px;
+		margin: 0 auto;
+	}
+	#modal_03_j{
+		width: 1050px;
+		height: 85px;
+		margin: 0 auto;
+	}
+	#title_j{
+		width: 195px;
+		height: 45px;
+		float: left;
+		font-family:'font2' !important;
+		font-size: 40px;
+		margin-left: 427.5px;
+		margin-top: 35px;
+	}
+	#close_j{
+		width: 25px;
+		height: 25px;
+		float: right;
+		margin-top: 32px;
+	}
+	#line_02_j{
+		border-color: 0.5px black;
+	}
+	#modal_04_j{
+		width: 720px;
+		height: 34px;
+		margin: 20px auto;
+	}

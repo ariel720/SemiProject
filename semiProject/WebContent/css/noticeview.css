@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+
+
+#button_div{
+text-align: right;
+margin-top: 20px;
+
+}
+
+.but{
+
+    background-color: gray;
+    font-size: 13px;
+    padding: 8px 14px 9px;
+  	cursor: pointer;
+    font-weight: bold;
+    -webkit-border-radius: 4px;
+    color: white;
+
+}
+
+#write{
+width: 800px;
+margin: 0 auto;
+}
+#candiv{
+position: relative;
+
+    border: 1px solid gray;
+margin-top: 10px;
+height: 400px;
+
+}
+
+#h2{
+margin-left: 25px;
+
+}
+
+#day{
+float: right;
+margin-top: 15px;
+font-size: 13px;
+text-align: justify;
+}
+
+#tit{
+float: left;
+font-size: 20px;
+font-weight: bold;
+height: 10px;
+margin-bottom: 15px;
+
+}
+
+#boder{
+margin: 0 auto;
+border-bottom: 1px solid;
+    border-bottom-style: dashed;
+line-height: normal;
+height: 50px;
+width: 750px;
+
+
+}
+
+#id_div{
+margin: 0 auto;
+width: 750px;
+height: 20px;
+
+}
+
+#p_id{
+
+
+font-size: 14px;
+margin-top: 1px;
+float: left;
+
+}
+
+#counts{
+
+
+margin: 0 auto;
+margin-top: 20px;
+width: 750px;
+height: 300px;
+
+}
+
+#ptit{
+margin-top: 10px;
+
+}
+
+#pday{
+margin-top: 7px;
+
+}
+
+
+#w_change{
+
+margin-bottom: 100px;
+}

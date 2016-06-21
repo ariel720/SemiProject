@@ -1,0 +1,149 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<link href="<%=application.getContextPath() %>/css/main.css" rel="stylesheet">    
+<script src="http://bxslider.com/lib/jquery.bxslider.js"></script>    
+<script type="text/javascript">
+$(function(){
+	$(".th").mouseenter(function(){
+		
+		
+		$(this).find("#v1").slideToggle("slow");
+    });
+});
+
+$(function(){
+	$(".th").mouseleave(function(){
+		
+		$(this).find("#v1").slideToggle("slow");
+	    });
+	});
+	
+	
+ $(function(){
+	
+	$(".th").mouseenter(function(){
+		
+		
+		$(this).find("#v2").slideToggle("slow");
+    });
+});
+	
+ 
+ $(function(){
+	 $(".th").mouseleave(function(){
+	 	
+		 $(this).find("#v2").slideToggle("slow");
+	     });
+	 });	
+ 
+  	
+  	
+$(document).ready(function() {
+    $('.bxslider').bxSlider({
+      auto: true,
+      autoControls: false,pager:false,controls:false,
+	  mode: 'fade',
+	  speed: 500,
+	  pause: 5000
+    });
+});
+
+
+$(document).ready(function(){
+	  $('#gallery_slide').bxSlider({
+	    minSlides: 3,
+	    maxSlides: 3.6,
+	    auto:true,
+	    slideMargin: 0,
+	    slideWidth: 220,
+	    ticker: true,
+	    speed: 30000,
+	    infiniteLoop: true
+
+		
+
+	  });
+	});
+	
+	$(function() {
+		var a =$("#memberch").val();
+		$("#d3_1_d").click(function() {
+			if(a == null){
+			location.href="#";
+				
+			}else if(a == "admin"){
+				location.href="<%=application.getContextPath()%>/res/graph.res?Cp=1";	
+				
+			}else if(a != "admin" && a != ""){
+				location.href="<%=application.getContextPath()%>/mem/myInfo.jsp";
+				
+			}
+		});
+	});
+
+</script>
+<input type="hidden" value="${member.id}" id="memberch">
+<div id="container">
+<div id="inner">
+<div id="d1">
+<div id="d1_1">
+
+<a href="<%=application.getContextPath() %>/galHo/galHoList.gh?curPage=1"><ul style="margin: 0; padding:0;" class="bxslider" >
+<li><img class="main" src="<%=application.getContextPath() %>/image/jy/img/main.jpg" ></li>
+<li><img class="main" src="<%=application.getContextPath() %>/image/jy/img/main2.jpg"></li>
+<li><img class="main" src="<%=application.getContextPath() %>/image/jy/img/main3.jpg"></li>
+</ul>
+</a>
+</div>
+
+
+
+
+
+
+<div id="d1_2">
+
+<div id="d1_2_1" class="th"><p class="title" id="v1">호텔소개</p> <div class="info"><p class="view">
+<a href="<%=application.getContextPath()%>/intro/intro2.jsp"><img id="v2" src="<%=application.getContextPath() %>/image/jy/img/see_more.jpg"></a></p></div>
+<p class="visual"><img src="<%=application.getContextPath() %>/image/jy/img/main_item01.jpg"></p></div>
+
+<div id="d1_2_2" class="th"><p class="title" id="v1">객실소개</p>  <div class="info"><p class="view">
+<a href="<%=application.getContextPath()%>/room/room1.jsp"><img id="v2" src="<%=application.getContextPath() %>/image/jy/img/see_more.jpg"></a></p></div>
+<p class="visual"><img src="<%=application.getContextPath() %>/image/jy/img/main_item02.jpg"></p></div>
+
+<div id="d1_2_3" class="th"><p class="title" id="v1">C a t s  G a l l e r y</p> <div class="info"><p class="view">
+<a href="<%=application.getContextPath() %>/galCat/galCatList.gc?curPage=1"><img id="v2" src="<%=application.getContextPath() %>/image/jy/img/see_more.jpg"></a></p></div>
+<p class="visual"><img src="<%=application.getContextPath() %>/image/jy/img/main_item03.jpg"></p></div>
+
+</div>
+</div>
+</div>
+<div id="d2">
+<div id="d2_1" class="th"><p class="title2" id="v1">이용요금안내</p> <div class="info"><p class="view">
+<a href="<%=application.getContextPath() %>/res/price.jsp"><img id="v2" src="<%=application.getContextPath() %>/image/jy/img/see_more.jpg"></a></p></div>
+<p class="visual"><img src="<%=application.getContextPath() %>/image/jy/img/new_main01.jpg"></p></div>
+
+<div id="d2_2" class="th"><p class="title2" id="v1">객실예약</p> <div class="info"><p class="view">
+<a href="<%=application.getContextPath()%>/res/price.jsp"><img id="v2" src="<%=application.getContextPath() %>/image/jy/img/see_more.jpg"></a></p></div>
+<p class="visual"><img src="<%=application.getContextPath() %>/image/jy/img/new_main02.jpg"></p></div>
+
+<div id="d2_3" class="th"><p class="title" id="v1">자유게시판</p> <div class="info"><p class="view">
+<a href="<%=application.getContextPath() %>/free/list.fr?cp=1"><img id="v2" src="<%=application.getContextPath() %>/image/jy/img/see_more.jpg"></a></p></div>
+<p class="visual"><img src="<%=application.getContextPath() %>/image/jy/img/main_item04.jpg"></p></div>
+
+</div>
+<div id="d3">
+<div id="d3_1"><div id="d3_1_d"></div></div>
+<div id="d3_0">
+<div id="d3_2">
+<div id="gallery_slide" style="position: relative; overflow: hidden; white-space: nowrap; float: left;">
+<div class="slide"><img src="<%=application.getContextPath() %>/image/jy/img/show1.JPG" style="height: 100%; width: 100%;"></div>
+<div class="slide"><img  src="<%=application.getContextPath() %>/image/jy/img/show2.JPG" style="height: 100%; width: 100%;"></div>
+<div class="slide"><img  src="<%=application.getContextPath() %>/image/jy/img/show3.JPG" style="height: 100%; width: 100%;"></div>
+<div class="slide"><img  src="<%=application.getContextPath() %>/image/jy/img/show4.JPG" style="height: 100%; width: 100%;"></div>
+<div class="slide"><img  src="<%=application.getContextPath() %>/image/jy/img/show5.JPG" style="height: 100%; width: 100%;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>

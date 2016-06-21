@@ -1,0 +1,218 @@
+@CHARSET "UTF-8";
+
+#resv_area {
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.tip {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	margin-top: 10px;
+	font: 13px/24px "NanumBarunGothic", sans-serif;
+}
+
+#roomcheck {
+	overflow: hidden;
+	height: 280px;
+	position: relative;
+}
+#roomcheck2{
+	float: left;
+	width: 450px;
+	height: 280px;
+	cursor: pointer;	
+}
+.roomcheck2{
+	display: block;
+	float: left;
+}
+.roomcheck label {
+	
+	float: left;
+	width: 450px;
+	height: 280px;
+	cursor: pointer;
+}
+
+#roomcheck input {
+	position: absolute;
+	left: -5000px;
+}
+
+.deluxe {
+	background: url(../image/jy/purple_off.jpg) no-repeat;
+	display: block;
+	height: 280px;
+	width: 450px;
+	float: left;
+}
+
+.sweet {
+	background: url(../image/jy/violet_off.jpg) no-repeat;
+	display: block;
+	height: 280px;
+	width: 450px;
+	float: left;
+}
+
+.resv_wrap {
+	margin-top: 35px;
+	overflow: hidden;
+}
+
+.cal_area {
+	float: left;
+	width: 315px;
+}
+
+.cal_area input {
+	width: 132px;
+	height: 30px;
+	padding: 0 8px;
+	border: 1px solid #cccccc;
+}
+
+.re_t {
+	margin-bottom: 15px;
+	font: bold 12px dotum;
+	color: #4c4c4c;
+	list-style: none;
+}
+
+.re_t2 {
+	width: 300px;
+	margin-bottom: 15px;
+	font: bold 12px dotum;
+	color: #4c4c4c;
+	list-style: none;
+	float: left;
+}
+
+.re_t3 {
+	width: 240px;
+	float: right;
+	margin-bottom: 15px;
+	font: bold 12px dotum;
+	color: #4c4c4c;
+	list-style: none;
+}
+
+#datepicker {
+	color: #fd6566;
+	background: url(../image/jy/ico_cal.jpg) no-repeat 125px 7px;
+	font-size: 12px;
+}
+
+#datepicker2 {
+	color: #9b59c2;
+	font-size: 12px;
+	float: right;
+	background: url(../image/jy/ico_cal.jpg) no-repeat 125px 7px;
+}
+
+.price_wrap {
+	float: right;
+	width: 555px;
+}
+
+#retime {
+	width: 555px;
+	overflow: hidden;
+}
+
+#start_time {
+	width: 300px;
+	height: 32px;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	font-size: 12px;
+}
+
+#end_time {
+	width: 240px;
+	height: 32px;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	float: right;
+	font-size: 12px;
+}
+
+.price_table th {
+	color: #4c4c4c;
+	font-weight: bold;
+	padding: 15px 0;
+	border-bottom: 1px dashed #dedede;
+	text-align: left;
+	font-size: 12px;
+}
+
+.price_table td {
+	color: #4c4c4c;
+	text-align: right;
+	font: bold 16px;
+	padding: 15px 0;
+	border-bottom: 1px dashed #dedede;
+}
+
+.price_table input {
+	width: 200px;
+	border: 1px solid #c0c0c0;
+	height: 27px;
+}
+
+.price_table {
+	width: 100%;
+}
+
+#catnum {
+	width: 202px;
+	border: 1px solid #c0c0c0;
+	height: 31px;
+}
+
+#ph input {
+	width: 61px;
+}
+
+#calender table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 315px;
+	height: 315px;
+	font-size: small;
+	border: 1px solid gray;
+	margin-top: 10px;
+}
+
+#myo1 {
+	
+}
+
+#myo2 {
+	display: none;
+}
+
+.tip1	{
+    color: #737373;
+    margin-top: 15px;
+    font-size: 11px;
+    text-align: center;
+
+}
+
+.tip2{
+    color: #737373;
+    margin-top: 10px;
+    font: 15px "NanumBarunGothic",sans-serif;
+    text-align: center;
+
+}
+
+#subimg{
+text-align: center;
+margin-top: 25px;
+
+}

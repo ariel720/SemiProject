@@ -1,0 +1,228 @@
+@CHARSET "UTF-8";
+
+
+.re{
+display: none;
+
+}
+
+#button_div{
+text-align: right;
+margin-top: 20px;
+
+}
+.btn1{
+	background-color: gray;
+    font-size: 13px;
+    padding: 8px;
+  	cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+}
+.btn2{
+	background-color: white;
+    font-size: 13px;
+    padding: 8px;
+  	cursor: pointer;
+    font-weight: bold;
+   	border-radius: 4px;
+    color: gray;
+	
+}
+
+
+#write{
+width: 800px;
+margin: 0 auto;
+}
+#candiv{
+position: relative;
+
+ border: 1px solid gray;
+margin-top: 10px;
+height: 400px;
+
+}
+
+#h2{
+margin-left: 25px;
+
+}
+
+#day{
+float: right;
+margin-top: 15px;
+font-size: 13px;
+text-align: justify;
+}
+
+#tit{
+float: left;
+font-size: 16px;
+font-weight: bold;
+height: 10px;
+margin-bottom: 15px;
+
+}
+
+#boder{
+margin: 0 auto;
+border-bottom: 1px solid;
+    border-bottom-style: dashed;
+line-height: normal;
+height: 50px;
+width: 750px;
+
+
+}
+
+#id_div{
+margin: 0 auto;
+width: 750px;
+height: 20px;
+
+}
+
+#p_id{
+
+
+font-size: 14px;
+margin-top: 1px;
+float: left;
+
+}
+
+#counts{
+
+
+margin: 0 auto;
+margin-top: 10px;
+width: 750px;
+height: 300px;
+
+}
+
+#ptit{
+margin-top: 10px;
+
+}
+
+#pday{
+margin-top: 7px;
+
+}
+
+#re_div{
+
+margin-top: 10px;
+
+}
+
+
+#re_table{
+
+	margin: 0 auto;
+    background: #f4f4f4;
+    width: 800px;
+ 	position: relative;
+ 	
+}
+
+
+#re_view{
+padding: 10px;
+width: 100%;
+
+
+
+}
+
+#re_view th{
+text-align: left;
+font-size: 22px;
+
+
+}
+
+#day{
+text-align: right;
+
+}
+
+.re_contents td{
+
+    border-bottom: 1px solid;
+    border-bottom-style: dashed;
+text-align: right;
+}
+
+.re_contents p{
+
+   margin-bottom: 10px;
+   text-align: left;
+   
+}
+
+.re_contents input{
+
+float: right;
+margin-bottom: 5px;
+   
+   
+}
+
+#refrom{
+background-color: #f4f4f4;
+position: relative;
+margin: 0 auto;
+width: 800px;
+margin-top: 10px;
+
+}
+#refromtable{
+padding: 10px;
+width: 100%;
+
+}
+
+
+#refromtable td{
+
+padding: 10px;
+
+}
+
+#contents{
+width: 620px;
+height: 100%;
+}
+
+
+#go{
+height: 58px;
+width: 120px;
+
+}
+
+#re_td{
+width: 400px;
+height: 58px;
+}
+#re_td2{
+height: 30px;
+
+}
+
+#cunbut{
+
+text-align: right;
+padding: 10px;
+}
+
+.re_contents p{
+
+margin-top: 2px;
+
+
+}

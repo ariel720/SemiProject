@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+
+
+#iframe_lay{
+padding-bottom: 30px;
+margin-top: 50px;
+}
+
+.room_area{
+
+width: 900px;
+margin: 0 auto;
+
+}
+
+#d1_1{
+height: 450px;
+width: 900px;	
+position: relative;
+
+}
+
+li{
+list-style: none;
+}
+
+#tip{
+  margin-top: 10px;
+  font: 13px/24px "NanumBarunGothic",sans-serif;
+
+}
+
+#left{
+float: left;
+width: 400px;
+height: 154px;
+
+}
+#right{
+float: right;
+
+}
+
+
+#table2{
+	
+	height: 100%;
+	width: 100%;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #cccccc;
+	
+}
+
+#table2 th{
+
+border-bottom: 1px solid #cccccc;
+border-right: 1px solid #cccccc;
+    background: #eee;
+    text-align: center;
+	font-size: 14px;
+    font-weight: bold;
+    overflow: hidden
+}
+
+#table2 td{
+  border-bottom: 1px solid #cccccc;
+	    text-align: center;
+	    font-weight: bold;
+	    border-right: 1px solid #cccccc;
+
+	
+	    overflow: hidden;
+		font-size: 11px;
+
+
+}
+
+.pur{
+
+    color: #5c46bd;
+
+}
+
+#tip2{
+    color: #737373;
+    margin-top: 15px;
+    font-size: 11px;
+}
+
+#bo{
+margin-top: 25px;
+
+}
+
+#ro_area{
+overflow: hidden;
+margin-top: 30px;
+}
+
+#btns{
+    margin-top: 35px;
+    text-align: center;
+
+}
+
+#bp{
+    color: #737373;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 15px;
+}

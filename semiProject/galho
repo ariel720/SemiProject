@@ -1,0 +1,16 @@
+create table galho(
+	num number(7) primary key,
+	id varchar2(300),
+	title varchar2(4000),
+	contents varchar2(4000),
+	counts number(7),
+	reg_date date,
+	imagefile varchar2(4000)
+)
+
+create sequence galho_seq
+	start with 1
+	increment by 1
+	nomaxvalue 
+	nocache
+	nocycle

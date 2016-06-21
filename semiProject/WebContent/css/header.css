@@ -1,0 +1,123 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#h_hr{
+	border: 5px solid rgb(95, 91, 91);
+}
+#h1 ul,#menu_panel ul{
+ list-style: none;
+}
+	#h1{
+		height: 200px;
+		width: 1220px;
+		margin: 0 auto;
+		position: relative;
+    	margin: 0 auto;
+   		width: 1220px;
+		overflow: hidden;
+	}
+	#h1_1{
+		float: left;
+		position: absolute;
+    	top: 87px;
+    	width: 82px;
+    	height: 34px;	
+			
+	}
+	#h1_menu_btn{
+		background-image: url("../image/jw/himg/menu_o.jpg");
+	    width: 82px;
+    	height: 34px;
+    	border: none;
+		line-height: 34px;
+	}
+	#h1_2{
+		float: left;
+		margin-left: 490px;
+		line-height: 90px;
+	}
+	#h1_3{
+		float: right;
+	    position: absolute;
+	    height: 35px;
+	    right: 0px;
+	    top: 87px;
+	}
+	#h1_home_btn{
+		background-image: url("../image/jw/himg/btn_logn.jpg");
+		width: 35px;
+    	height: 35px;
+    	border: 1px solid white;
+	}
+	
+	#h1_4{
+		float: right;
+		width:150px;
+	    position: absolute;
+	    height: 35px;
+	    right:50px;
+	    top: 87px;
+	}
+	#h1_u1 li{
+	float: right;
+    padding: 0 15px;
+    height: 35px;
+    color: white;
+    font-weight:bolder;
+    line-height:34px;
+    background: #5f5b5b url(../image/jw/himg/bar.jpg) no-repeat right 50%;
+	}
+	#h1_u1{
+	padding-right: 7px;
+    position: absolute;
+    height: 35px;
+    width :150px;
+    background: url(../image/jw/himg/arrow.jpg) no-repeat right 50%;
+	}
+	#h1_u1 #h1_u1_l1{
+		background-image: none;
+	}
+	#menu_panel {
+	width: 100%;
+	margin:0 auto;
+	position:absolute;
+    display: none;
+    z-index: 90; 
+	}	
+	#panel_inner{
+		background-color:white;
+		width: 1220px;
+		margin: 0 auto;
+		
+	}
+	#pinner_nav{
+		width: 1220px;
+		display: inline-block;
+	}
+	#pinner_nav>li{
+		float: left;
+		margin-right: 73px;
+		font-weight: bolder;
+		color: gray;
+	}
+	#pinner_nav_u1 li,#pinner_nav_u2 li,#pinner_nav_u3 li,#pinner_nav_u4 li,#pinner_nav_u5 li,#pinner_nav_u6 li,#pinner_nav_u7 li{
+		margin-top: 15px;
+		margin-bottom:5px;
+		font-weight: lighter;
+	}
+	#menu_panel a {
+		text-decoration: none;
+		color: gray;
+	}
+	
+	#menu_panel a:VISITED{
+		color: gray;
+	}
+	
+	#menu_panel a:HOVER{
+		color: black;
+		font-weight: bolder;
+	}
+	
